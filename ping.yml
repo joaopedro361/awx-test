@@ -1,0 +1,8 @@
+---
+- name: Teste AWX
+  hosts: all
+  gather_facts: false
+
+  tasks:
+    - name: Teste de conectividade
+      ansible.builtin.ping:
